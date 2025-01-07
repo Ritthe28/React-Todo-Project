@@ -46,13 +46,13 @@ const App = () => {
   return (
     <>
       <Nav />
-      <div className="container mx-auto my-5 rounded-xl p-5 bg-violet-50 min-h-[80vh]">
+      <div className="container mx-auto my-5 rounded-xl p-5 bg-slate-700 min-h-[80vh]">
         <div className="addtodo">
-          <h2 className="text-lg font-bold">Add a Todo </h2>
+          <h2 className="text-lg font-bold text-white">Add a Todo </h2>
           <input onChange={handleChange} value={todo} type="text" className='w-8/12' />
           <button onClick={handleAdd} className='bg-violet-400 rounded-md mx-6 hover:bg-violet-800 p-3 p py-1 text-white'>Add</button>
         </div>
-        <h2 className='text-lg font-bold'> Your Todos </h2>
+        <h2 className='text-lg font-bold text-white'> Your Todos </h2>
         <div className="todos">
           {todos.map(item => (
             <div key={item.id} className="todo flex w-1/2 my-3 justify-between">

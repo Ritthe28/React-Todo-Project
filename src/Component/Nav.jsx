@@ -4,7 +4,6 @@ const Nav = () => {
   return (
    <>
    <div>
-    I am Nav Ba 
    </div>
    </>
   )
